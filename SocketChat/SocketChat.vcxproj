@@ -185,6 +185,8 @@
   <ItemGroup>
     <ClInclude Include="CClientSocket.h" />
     <ClInclude Include="CCreate.h" />
+    <ClInclude Include="ClientSocket.h" />
+    <ClInclude Include="CRoom.h" />
     <ClInclude Include="CServerSocket.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
@@ -196,6 +198,8 @@
   <ItemGroup>
     <ClCompile Include="CClientSocket.cpp" />
     <ClCompile Include="CCreate.cpp" />
+    <ClCompile Include="ClientSocket.cpp" />
+    <ClCompile Include="CRoom.cpp" />
     <ClCompile Include="CServerSocket.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

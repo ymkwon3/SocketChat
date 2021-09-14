@@ -4,6 +4,7 @@
 
 #pragma once
 #include "CCreate.h"
+#include "CRoom.h"
 // CSocketChatDlg 대화 상자
 class CSocketChatDlg : public CDialogEx
 {
@@ -34,4 +35,5 @@ public:
 	afx_msg void OnBnClickedCreate();
 	afx_msg void OnBnClickedJoin();
 	CCreate CreateDlg;
+	CRoom JOINDlg;
 };
